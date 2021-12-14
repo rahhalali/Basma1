@@ -1,0 +1,35 @@
+.nine-form{
+    overflow: auto;
+}
+.nine-form input,textarea {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px;
+    font-size: 15px;
+    margin: 1% 1% 3% 1%;
+    border: 0;
+    outline: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.nine-form input::placeholder,textarea::placeholder{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(93, 92, 92, 0.53);
+}
+.nine-form button{
+    margin: 1%;
+    width: 95%;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    padding: 15px;
+    font-size: 19px;
+    color: white;
+    background: linear-gradient(to bottom right, #552ADF, #6D2DE3);
+}
+.nine-form button i{
+    margin-right: 2%;
+}
+

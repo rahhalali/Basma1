@@ -1,0 +1,63 @@
+.eight{
+    width: 90%;
+    margin: 0 auto;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.eight-container{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    background:url('../../Images/images/newsletter-background.png');
+    background-position: center;
+    text-align: center;
+
+}
+
+::placeholder{
+   text-align: center;
+
+    display: flex;
+    align-items: self-start;
+
+}
+
+.eight-input{
+    display: flex;
+    flex-direction: column;
+}
+.eight-input input
+{
+    padding:5px 5px 40px 5px;
+    border-radius: 9px;
+    outline: 0;
+    border: 0;
+    box-shadow:  2px 5px 15px  rgba(0 0 0 /0.1);
+}
+.eight-input button{
+    margin-top: 3%;
+    padding: 15px;
+    border-radius: 9px;
+    outline: 0;
+    border: 0;
+    color: white;
+    background: linear-gradient(to bottom right, #552ADF, #6D2DE3);
+    font-weight: bold;
+    font-size: 17px;
+}
+@media screen and (max-width: 750px) {
+    .eight{
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+    .eight-container{
+        width: 90%;
+        padding: 2% 0;
+    }
+}

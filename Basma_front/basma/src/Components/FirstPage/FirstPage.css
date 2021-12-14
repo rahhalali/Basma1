@@ -1,0 +1,14 @@
+.FirstPage{
+    width: 90%;
+    margin:0 auto ;
+    height: 100vh;
+    clip-path: polygon(46.9% 0, 100% 0, 100% 42%, 77% 87%);
+    background: linear-gradient(to bottom right, #552ADF, #6D2DE3);
+}
+@media screen and (max-width: 750px){
+    .FirstPage{
+        clip-path: none;
+        width: 100%;
+        height: auto;
+    }
+}

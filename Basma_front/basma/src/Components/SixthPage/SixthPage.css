@@ -1,0 +1,98 @@
+.sixth{
+    min-height: 120vh;
+    width: 90%;
+    margin: 0 auto;
+    background: #f6f9fe;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sixth-card{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.sixth-first{
+    width: 47%;
+    background: white;
+    outline: 0;
+    border-radius: 16px;
+    box-shadow:  2px 2px 8px  rgba(0 0 0 /0.1);
+}
+.sixth-icon{
+    width: 100px;
+    margin: 10% auto 0 auto;
+}
+.sixth-icon img{
+    width: 100%;
+    height: 100%;
+}
+p.type{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 2%;
+}
+.sixth p{
+    margin:0 15%;
+    padding: 5%;
+    color: #5d5c5c;
+}
+.sixth-card .sixth-first p.price{
+    color: #4b29dc;
+    font-size: 30px;
+    font-weight: bold;
+}
+.sixth-card .sixth-first p.price span{
+    font-size: 50px;
+}
+.sixth-card .sixth-first p:not(p.type){
+    border-bottom: 1px solid rgba(192, 189, 189, 0.4);
+}
+.sixth-btn{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding:14px 30px;
+    background: linear-gradient(to right, #4b29dc
+    , #7d2fe5) ;
+    outline: 0;
+    border:0;
+    border-radius: 9px;
+    color: white;
+    position: relative;
+    bottom: -30px;
+}
+.footer{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin-top: 1%;
+    padding-bottom: 5%;
+}
+.footer p,.footer p a{
+    color: black;
+}
+@media screen and (max-width: 750px){
+    .sixth{
+        height: auto;
+        width: 100%;
+    }
+    .sixth-card{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    .footer{
+        margin-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+

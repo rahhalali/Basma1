@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "icon": "far fa-hand-point-up",
+        "title": "Fully Functionally",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.Adipisci alias beatae dicta id ipsam,iste maiores minus nesciunt nisi quae,"
+    },
+    {
+        "id": 2,
+        "icon": "fal fa-fingerprint",
+        "title": "Fully Functionally",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.Adipisci alias beatae dicta id ipsam,iste maiores minus nesciunt nisi quae,"
+
+},{
+        "id": 3,
+        "icon": "far fa-square",
+        "title": "Fully Functionally",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.Adipisci alias beatae dicta id ipsam,iste maiores minus nesciunt nisi quae,"
+
+},{
+        "id": 4,
+        "icon": "fal fa-map-marker-alt",
+        "title": "Location Tracking",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.Adipisci alias beatae dicta id ipsam,iste maiores minus nesciunt nisi quae,"
+
+},{
+        "id": 5,
+        "icon": "fal fa-cogs",
+        "title": "Powerful Settings",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.Adipisci alias beatae dicta id ipsam,iste maiores minus nesciunt nisi quae,"
+
+},{
+        "id": 6,
+        "icon": "fal fa-globe",
+        "title": "Multiple Language",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit.Adipisci alias beatae dicta id ipsam,iste maiores minus nesciunt nisi quae,"
+
+}
+]

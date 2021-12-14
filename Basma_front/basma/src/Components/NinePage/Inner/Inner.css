@@ -1,0 +1,41 @@
+.nine-Inner{
+    width: 70%;
+    color: #5d5c5c;
+}
+.nine-Inner li{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+.Inner-list .image{
+    width: 25px;
+    background-color: rgba(109, 45, 227, 0.78);
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3%;
+    border-radius: 5px;
+    color: white;
+}
+.Inner-list .image img {
+    color: white;
+}
+.image.home{
+    width: 33px;
+}
+@media screen and (max-width: 750px){
+    .nine-Inner{
+        width: 100%;
+        margin-bottom: 5%;
+    }.nine-Inner li{
+        font-size: 14px;
+     }
+    .Inner-list .image{
+        width: 15px;
+    }
+    .Inner-info{
+        font-size: 14px;
+    }
+
+}

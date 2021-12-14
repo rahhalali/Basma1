@@ -1,0 +1,13 @@
+
+@media screen and (max-width: 750px){
+    .nine-head{
+        width: 100%;
+    }
+    .nine-head p{
+        width: 100%;
+        font-size: 14px;
+    }
+    .nine-head h1{
+        font-size: 30px;
+    }
+}

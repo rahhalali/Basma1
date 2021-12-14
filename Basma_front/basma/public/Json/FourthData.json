@@ -1,0 +1,26 @@
+
+
+[{
+  "id": 1,
+  "header": "Share your photos with friends easily",
+  "info": [
+    {
+      "id": 1,
+      "icon": "fas fa-layer-group",
+      "infos": "Fully layered dolor sit amet, consectetur adipisicing elit.Facere, nobis, id expedita dolores officiis laboriosam."
+    },
+    {
+      "id": 2,
+      "icon": "fas fa-brush",
+      "infos": "Customizable design dolor sit amet, consectetur adipisicing elit. Facere,  nobis,id expedita dolores officiis laboriosam."
+    }, {
+      "id": 3,
+      "icon": "fas fa-burn",
+      "infos": "Drop ipsum dolor sit amet, consectetur adipisicing elit .Facere,nobis, id expedita dolores officiis laboriosam."
+    }, {
+      "id": 4,
+      "icon": "fas fa-cart-arrow-down",
+      "infos": "Marketing chart dolor sit amet, consectetur adipisicing elit.Facere,nobis, id expedita dolores officiis laboriosam."
+    }
+  ]
+}]

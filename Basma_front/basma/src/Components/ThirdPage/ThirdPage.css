@@ -1,0 +1,38 @@
+.third-page{
+    width: 90%;
+    margin: 2% auto;
+    background: #f6f9fe;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third-page-container{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+}
+.third-page-container-image{
+    text-align: center;
+    flex: 1.2;
+}
+.third-page-container-info{
+    flex: 1.2;
+    justify-content: center;
+    align-items: center;
+    padding-left:10%;
+}
+@media screen and (max-width: 750px){
+    .third-page{
+        width: 100%;
+        margin: 2% auto;
+        background: #f6f9fe;
+        height: auto;
+        display: block;
+    }
+    .third-page-container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+}

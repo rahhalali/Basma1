@@ -1,0 +1,25 @@
+.eight-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.eight-header h1{
+    font-size: 57px;
+    margin-bottom: 2%;
+}
+.eight-header p{
+    font-size: 19px;
+    color: #5d5c5c;
+    margin-bottom: 4%;
+}
+@media screen and (max-width: 750px) {
+
+    .eight-header h1{
+        font-size: 30px;
+        margin-bottom: 2%;
+    }
+    .eight-header p{
+        font-size: 15px;
+    }
+}

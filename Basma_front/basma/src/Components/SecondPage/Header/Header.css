@@ -1,0 +1,32 @@
+.header-second{
+    text-align: center;
+    width: 70%;
+    margin: 0  auto 3% auto;
+}
+.header-second h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: #222222;
+}
+.header-second p{
+color: #5d5c5c;
+    width: 90%;
+    margin: 0 auto;
+}
+.header-second h1:after{
+    content: '';
+    display: block;
+    width: 10%;
+    margin: 0 auto;
+    border-bottom: 2px solid blue;
+}
+@media screen and (max-width: 750px){
+    .header-second{
+        width: 100%;
+    }
+    .header-second h1{
+        font-size: 30px;
+        padding-bottom: 10px;
+        color: #222222;
+    }
+}

@@ -1,0 +1,29 @@
+.header-fifth{
+    text-align: center;
+    width: 70%;
+    margin: 0  auto 3% auto;
+}
+.header-fifth h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.header-fifth p{
+    width: 70%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 750px){
+    .header-fifth{
+        width: 100%;
+    }
+    .header-fifth h1{
+        margin: 3% auto 3% auto;
+
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .header-fifth p{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
